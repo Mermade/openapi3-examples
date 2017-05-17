@@ -14,8 +14,7 @@ paths:
           content:
             application/json:
               examples: 
-                foo:
-                  value: {
+                - {
                     "versions": [
                         {
                             "status": "CURRENT",
@@ -47,11 +46,10 @@ paths:
           content:
             application/json: 
               examples: 
-                foo: 
-                  value: |
-                   {
+                - |
+                 {
                     "versions": [
-                          {
+                        {
                             "status": "CURRENT",
                             "updated": "2011-01-21T11:33:21Z",
                             "id": "v2.0",
@@ -74,7 +72,7 @@ paths:
                             ]
                         }
                     ]
-                   }
+                 }
   /v2:
     get:
       operationId: getVersionDetailsv2
@@ -86,8 +84,7 @@ paths:
           content:
             application/json: 
               examples:
-                foo:
-                  value: {
+                - {
                     "version": {
                       "status": "CURRENT",
                       "updated": "2011-01-21T11:33:21Z",
@@ -131,8 +128,7 @@ paths:
           content:
             application/json: 
               examples:
-                foo:
-                  value: {
+                - {
                     "version": {
                       "status": "CURRENT",
                       "updated": "2011-01-21T11:33:21Z",
