@@ -9,5 +9,5 @@ paths:
       in: path
       required: true
       schema:
-        type: int
+        type: integer
         title: A unique identifier for the customer

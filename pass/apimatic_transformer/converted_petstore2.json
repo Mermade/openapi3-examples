@@ -124,7 +124,7 @@
             "required": true,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -179,7 +179,7 @@
             "required": true,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -299,7 +299,7 @@
             "required": false,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -313,7 +313,7 @@
             "required": false,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -374,7 +374,7 @@
             "required": false,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "simple",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -440,7 +440,7 @@
             "required": false,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -454,7 +454,7 @@
             "required": false,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -823,7 +823,7 @@
             "required": true,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {
@@ -837,7 +837,7 @@
             "required": true,
             "deprecated": false,
             "allowEmptyValue": false,
-            "style": "matrix",
+            "style": "form",
             "explode": false,
             "allowReserved": false,
             "schema": {

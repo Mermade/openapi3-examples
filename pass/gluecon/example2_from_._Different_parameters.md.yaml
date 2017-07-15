@@ -7,8 +7,8 @@ paths:
     parameters:
     - name: ids
       in: query
-      style: simple
+      style: form
       schema:
         type: array
         items:
-          type: int
+          type: integer

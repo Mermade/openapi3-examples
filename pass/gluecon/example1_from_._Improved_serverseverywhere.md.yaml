@@ -15,7 +15,8 @@ paths:
       - url: https://supersecure-api.example.com
       requestBody:
         content:
-          application/json: {}
+          application/json:
+            schema: {}
       responses:
         '200': 
           description: Ok

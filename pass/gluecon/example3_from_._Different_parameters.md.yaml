@@ -15,4 +15,4 @@ paths:
       required: true
       style: matrix
       schema:
-        type: int
+        type: integer
