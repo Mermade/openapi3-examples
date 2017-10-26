@@ -9,3 +9,5 @@ servers:
 paths:
   /test:
     $ref: '../resources/include.yaml#/paths/~1test'
+  /test2:
+    $ref: '../resources/include.yaml#/paths/~1'
