@@ -7,4 +7,5 @@ components:
   schemas:
     test:
       type: string
-      pattern: (?<=\\s)(?<!\\:\\s)#.*?\\{.*?\\}
+      # lookbehind patterns validate ok in Node >= 8.10.0
+      pattern: '['
