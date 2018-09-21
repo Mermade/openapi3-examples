@@ -6,6 +6,12 @@ servers:
 - url: https://api.example.com
 paths:
   '/passports/{id}':
+    parameters:
+    - name: id
+      in: path
+      required: true
+      schema:
+        type: string
     get:
       responses:
         '200': 
@@ -24,6 +30,12 @@ paths:
     summary: Pictures of people
     servers:                      # Static resources on a different server
     - url: https://static.example.com
+    parameters:
+    - name: filename
+      in: path
+      required: true
+      schema:
+        type: string
     get: 
       responses:
         '200':
